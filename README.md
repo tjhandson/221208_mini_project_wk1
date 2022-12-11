@@ -14,7 +14,8 @@ N/A
 ## Usage
 
 Github and VS code (or equivilant) installed
-Internet browser needed
+
+Internet browser needed - to access Git page on https://tjhandson.github.io/221208_mini_project_wk1/
 
 
 ## Credits
@@ -27,10 +28,11 @@ MIT LIence: Please refer to the LICENSE in the repo.
 
 ## Version History
 
-0.2
+### 0.2
 
 Upload of updated README
-0.1
+
+### 0.1
 
 Initial commit of html, CSS and Assets
 
