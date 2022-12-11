@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    background-color: #e5e5e5;
+    color: #eb7526
+}
+
+.logo {
+    height: 70px;
+    width: 100%;
+}
+
+.logo h1 {
+    display: inline;
+    position: relative;
+    top: -38px;
+    left: 40px;
+    min-width: 650px;
+}
+
+.header nav {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+a {
+    color: #eb7526;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00959E
+  }
+
+p {
+    font-size: 16px;
+}
+
+.bannerimage {
+    height: 800px;
+    width: 100%;
+    background-image: url("./images/banner-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bannercaption {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+    background-color: #e5e5e5;
+    color: #00959E;
+    margin-bottom: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+
+.current-tours {
+    margin-bottom: 20px;
+    padding: 70px;
+    height: 300px;
+    font-family: 'Lato', sans-serif;
+    background-color: #eb7526;
+    color: #e5e5e5;
+}
+
+.past-tours {
+    margin-bottom: 20px;
+    padding: 70px;
+    height: 300px;
+    font-family: 'Lato', sans-serif;
+    background-color: #00959E;
+    color: #e5e5e5;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+    padding: 70px;
+    font-family: 'Lato', sans-serif;
+    background-color:#e5e5e5;
+    color: #eb7526;
+}
+
+
+.current-tours img {
+    max-height: 200px;
+}
+
+.past-tours img {
+    max-height: 200px;
+}
+
+.current-tours h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.past-tours h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-form h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Lato', sans-serif;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #eb7526;
+    color: #e5e5e5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #00959E
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    padding: 20px;
+  }
+
+.footer {
+    width: 100%;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+    background-color: #eb7526;
+    color: #e5e5e5;
+    
+}
+
+.footer h4 {
+    font-size: 20px;
+    display: inline-block;
+    
+}

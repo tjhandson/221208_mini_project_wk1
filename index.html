@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style_sheet.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img id="logo" src="./assets/images/British Columbia Tours ltd-logos.jpeg" alt=" BTCL Tours are our goal logo" width="100px" >
+            <!-- logo created with https://express.adobe.com/-->
+            <h1>British Columbia Tours Ltd.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#current-tours">Current Tours</a>
+                </li>
+                <li>
+                    <a href="#past-tours">Past Tours</a>
+                </li>
+                <li>
+                    <a href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <figure class="bannerimage"></figure>
+    <!-- image from https://www.aae.org/patients/landmark-contest/landscape-bg-l/-->
+
+    <Section class="bannercaption"><h2>British Columbia Tours Ltd. Tours are our goal!</h2></Section>
+
+    <main class="content">
+  
+        <section id="current-tours" class="current-tours">
+            <img src="./assets/images/current-tours.webp" alt="tavel person with map" class="float-left" />
+            <!-- image from pexels.com/search/travel/ -->
+            <h2>Current Tours</h2>
+            <p>
+            
+                Current British Columbia tour, including a performance by New Orleans Jazz in London.
+
+                The show in Toronto drew close to 300 people by October for the band during the festival.
+                
+                "The crowd definitely wanted to show some more people, but we decided that we hadn't been able to have a long time in Canada that day because this place was such a dark place," said Mr. J. Scott, the frontman and music teacher.
+                
+                The concert also hosted a "Festival of the Sacred" in Calgary this fall to raise money for cancer research. The concert provided financial support for health care for over 1,000 hospital patients.
+                
+                After performing in Montreal, the new Canadian tour will continue in March in Ottawa.  
+            </p>
+            <!-- AI text from https://deepai.org/machine-learning-model/text-generator -->
+        </section>
+
+        <section id="past-tours" class="past-tours">
+            <img src="./assets/images/past-tour.jpg" alt="travel person looking out onto the world" class="float-right" />
+            <!-- image from https://planos-lowcost.com/insurance/traveling-insurance-tips-for-traveler/ -->
+            <h2>Past Tours</h2>
+            <p>
+            Past British Columbia Canada tours have made a big difference for the local artists. The B.C. Museum is now at 1,500 metres ahead of schedule and will be offering three tours this year.
+            "It's always good to see when people are talking about the work of artists here," says David Brownley, who runs St. Joseph's B.C. Inuit Art Museum. "But when the artists and the community get together, they're on the right side of history."
+            Past British Columbia Canada tours and conventions is only available on one page. To access our extensive tour packages, please visit the TourPlanner   
+            </p>
+            <!-- AI text from https://deepai.org/machine-learning-model/text-generator -->
+        </section>
+    </main> 
+    <section class="contact-form">
+        <h3>Contact Us</h3>
+        <div class="container">
+            <form id="contact-us">
+            <!-- base of form from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="your email..">
+              
+              <label for="county">County</label>
+              <select id="county" name="county">
+                <option value="vancouver">Vancouver</option>
+                <option value="princerupert">Prince Rupert</option>
+                <option value="cariboo">Cariboo</option>
+              </select>
+              
+              <label for="Details of Tour">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+              <input type="submit" value="Submit">
+              
+            </form>
+    </section>
+    
+
+    <footer class="footer">
+        <h4>British Columbia Tours Ltd.</h4>
+        <a href="#current-tours">Back to top</a>
+    </footer>
+</body>
+</html>
